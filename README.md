@@ -43,3 +43,10 @@ Note: If you're using Linux Bash for Windows, [see this guide](https://www.howto
 ## License
 
 [CC0 1.0 (Public Domain)](LICENSE.md)
+
+## win10
+`C:\Program Files (x86)\Windows Kits\10\bin\10.0.15063.0\x86`
+
+`electron-packager . bitmogawin --out=../dist --platform=win32 --arch=ia32 --version=1.4.13 --overwrite --icon=C:\Users\admin\electron-quick-start\logo.ico`
+
+`electron-windows-store --input-directory C:\Users\admin\dist\bitmogawin-win32-ia32  --output-directory C:\Users\admin\output --flatten true --package-version 1.0.0.0 --package-name bitmogawin`
