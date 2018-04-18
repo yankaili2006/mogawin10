@@ -47,6 +47,6 @@ Note: If you're using Linux Bash for Windows, [see this guide](https://www.howto
 ## win10
 `C:\Program Files (x86)\Windows Kits\10\bin\10.0.15063.0\x86`
 
-`electron-packager . bitmogawin --out=../dist --platform=win32 --arch=ia32 --version=1.4.13 --overwrite
+`electron-packager . bitmogawin --out=../dist --platform=win32 --arch=ia32 --version=1.4.13 --overwrite`
 
-`electron-windows-store --input-directory C:\Users\admin\dist\bitmogawin-win32-ia32  --output-directory C:\Users\admin\output --flatten true --package-version 1.0.0.0 --package-name bitmogawin --publisher-display-name 凯盛发展有限公司`
+`electron-windows-store --input-directory C:\Users\admin\dist\bitmogawin-win32-ia32  --output-directory C:\Users\admin\output --flatten true --package-version 1.0.0.0 --package-name bitmogawin --publisher-display-name 凯盛发展有限公司 --assets ./assets`
